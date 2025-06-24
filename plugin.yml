@@ -1,0 +1,12 @@
+name: FloatCommandPlugin
+main: me.himanshu.FloatCommandPlugin
+version: 1.0
+api-version: 1.16
+commands:
+  float:
+    description: Float a player mid-air for a specific time
+    usage: /float <player> <time>
+permissions:
+  float.use:
+    description: Allows use of /float command
+    default: op
